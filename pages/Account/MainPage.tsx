@@ -6,7 +6,7 @@ function MainPage(props: any) {
   useEffect(() => {
     console.log(props);
   }, [props, props.router.query.name]);
-  const result = props.router.query.name;
+  const result = props.router.query.name + ".....";
 
   return (
     <div className={styles.container}>
